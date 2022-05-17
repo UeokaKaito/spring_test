@@ -36,7 +36,7 @@ public class FizzBuzzController {
 		}else {
 			result += "(-_-)zzz( ;∀;)";
 		}
-		
+		mv.addObject("result", result);
 		mv.addObject("result", result);
 		mv.addObject("num", num);
 		
